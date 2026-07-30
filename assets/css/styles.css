@@ -554,7 +554,7 @@ textarea { min-height: 140px; resize: vertical; }
   flex-shrink: 0;
 }
 .footer-brand {
-  line-height: 0;
+  line-height: 1.55;
 }
 .footer-brand img {
   display: block;
@@ -565,8 +565,17 @@ textarea { min-height: 140px; resize: vertical; }
   object-fit: contain;
   object-position: left top;
   padding: 0 !important;
-  margin: 0 0 .85rem 0 !important;
+  margin: 0 0 1rem 0 !important;
   border: 0 !important;
+  line-height: 0;
+}
+.footer-brand p {
+  margin: 0 0 0.75rem 0;
+  line-height: 1.55;
+  max-width: 32ch;
+}
+.footer-brand p:last-child {
+  margin-bottom: 0;
 }
 
 @media (max-width: 960px) {

@@ -15,5 +15,37 @@
         }
       ]
     }
+  ],
+  "redirects": [
+    {
+      "source": "/posts/:slug",
+      "destination": "/blog/posts/:slug",
+      "permanent": true
+    },
+    {
+      "source": "/posts/:slug.html",
+      "destination": "/blog/posts/:slug",
+      "permanent": true
+    },
+    {
+      "source": "/blog/",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/blog/index",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/blog/index.html",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/blog/posts/:slug.html",
+      "destination": "/blog/posts/:slug",
+      "permanent": true
+    }
   ]
 }

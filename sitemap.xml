@@ -1,113 +1,188 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://poolservice-lasvegas.com/about</loc>
+    <loc>https://www.poolservice-lasvegas.com/about</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://poolservice-lasvegas.com/blog</loc>
+    <loc>https://www.poolservice-lasvegas.com/areas/centennial-hills</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://poolservice-lasvegas.com/blog/posts/choosing-pool-company-las-vegas</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://poolservice-lasvegas.com/blog/posts/dust-storm-pool-recovery-las-vegas</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://poolservice-lasvegas.com/blog/posts/filter-clean-schedule-desert</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://poolservice-lasvegas.com/blog/posts/green-pool-before-pool-party</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://poolservice-lasvegas.com/blog/posts/hoa-pool-rules-las-vegas</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://poolservice-lasvegas.com/blog/posts/saltwater-vs-chlorine-vegas</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://poolservice-lasvegas.com/blog/posts/short-term-rental-pool-care-vegas</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://poolservice-lasvegas.com/blog/posts/vegas-pool-chemistry-in-july</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://poolservice-lasvegas.com/contact</loc>
+    <loc>https://www.poolservice-lasvegas.com/areas/downtown-las-vegas</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://poolservice-lasvegas.com/faq</loc>
+    <loc>https://www.poolservice-lasvegas.com/areas/enterprise</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://poolservice-lasvegas.com/</loc>
+    <loc>https://www.poolservice-lasvegas.com/areas/henderson-corridor</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.poolservice-lasvegas.com/areas/lone-mountain</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.poolservice-lasvegas.com/areas/mountains-edge</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.poolservice-lasvegas.com/areas/north-las-vegas</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.poolservice-lasvegas.com/areas/paradise</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.poolservice-lasvegas.com/areas/southern-highlands</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.poolservice-lasvegas.com/areas/spring-valley</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.poolservice-lasvegas.com/areas/summerlin-south</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.poolservice-lasvegas.com/areas/summerlin</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.poolservice-lasvegas.com/areas/the-lakes</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.poolservice-lasvegas.com/areas/west-summerlin</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.poolservice-lasvegas.com/areas/whitney</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.poolservice-lasvegas.com/blog</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.poolservice-lasvegas.com/blog/posts/choosing-pool-company-las-vegas</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.poolservice-lasvegas.com/blog/posts/dust-storm-pool-recovery-las-vegas</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.poolservice-lasvegas.com/blog/posts/filter-clean-schedule-desert</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.poolservice-lasvegas.com/blog/posts/green-pool-before-pool-party</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.poolservice-lasvegas.com/blog/posts/hoa-pool-rules-las-vegas</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.poolservice-lasvegas.com/blog/posts/saltwater-vs-chlorine-vegas</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.poolservice-lasvegas.com/blog/posts/short-term-rental-pool-care-vegas</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.poolservice-lasvegas.com/blog/posts/vegas-pool-chemistry-in-july</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.poolservice-lasvegas.com/contact</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.poolservice-lasvegas.com/faq</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.poolservice-lasvegas.com/</loc>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://poolservice-lasvegas.com/pricing</loc>
+    <loc>https://www.poolservice-lasvegas.com/pricing</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://poolservice-lasvegas.com/service-areas</loc>
+    <loc>https://www.poolservice-lasvegas.com/service-areas</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://poolservice-lasvegas.com/services/filter-deep-clean</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://poolservice-lasvegas.com/services/green-to-clean</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://poolservice-lasvegas.com/services/pool-equipment-repair</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://poolservice-lasvegas.com/services/saltwater-pool-service</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://poolservice-lasvegas.com/services/spa-hot-tub-service</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://poolservice-lasvegas.com/services/weekly-pool-cleaning</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://poolservice-lasvegas.com/services</loc>
+    <loc>https://www.poolservice-lasvegas.com/services/filter-deep-clean</loc>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.poolservice-lasvegas.com/services/green-to-clean</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.poolservice-lasvegas.com/services/pool-equipment-repair</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.poolservice-lasvegas.com/services/saltwater-pool-service</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.poolservice-lasvegas.com/services/spa-hot-tub-service</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.poolservice-lasvegas.com/services/weekly-pool-cleaning</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.poolservice-lasvegas.com/services</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
 </urlset>

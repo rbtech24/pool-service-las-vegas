@@ -58,9 +58,9 @@ a:hover { text-decoration: underline; }
   gap: .75rem; min-height: 0; padding: 0;
 }
 .logo img {
-  height: 56px;
+  height: 112px;
   width: auto;
-  max-width: min(420px, 62vw);
+  max-width: min(720px, 78vw);
   object-fit: contain;
   object-position: left center;
   padding: 0;
@@ -478,7 +478,7 @@ textarea { min-height: 140px; resize: vertical; }
 .prose .lede-graph { font-size: 1.08rem; color: var(--text); }
 
 /* ===== HEADER / LOGO — no extra vertical padding; bar hugs logo ===== */
-:root { --logo-h: 56px; --logo-h-mobile: 48px; }
+:root { --logo-h: 112px; --logo-h-mobile: 96px; }
 .site-header {
   position: sticky;
   top: 0;
@@ -500,7 +500,7 @@ textarea { min-height: 140px; resize: vertical; }
   align-self: stretch;
   flex: 0 1 auto;
   min-width: 0;
-  max-width: min(420px, 62vw);
+  max-width: min(720px, 78vw);
   line-height: 0;
   padding: 0 !important;
   margin: 0 !important;
@@ -541,9 +541,9 @@ textarea { min-height: 140px; resize: vertical; }
 }
 .footer-brand img {
   display: block;
-  height: 64px !important;
+  height: 128px !important;
   width: auto !important;
-  max-width: min(300px, 92%) !important;
+  max-width: min(560px, 96%) !important;
   max-height: none !important;
   object-fit: contain;
   object-position: left top;
@@ -559,7 +559,7 @@ textarea { min-height: 140px; resize: vertical; }
     padding: 0 !important;
     flex-wrap: nowrap !important;
   }
-  .logo { max-width: calc(100vw - 9rem); }
+  .logo { max-width: calc(100vw - 8.5rem); }
   .logo img {
     height: var(--logo-h-mobile) !important;
     max-height: none !important;
@@ -605,11 +605,11 @@ textarea { min-height: 140px; resize: vertical; }
 
 @media (max-width: 420px) {
   .header-actions .btn-sm { display: none; }
-  .logo { max-width: calc(100vw - 4.25rem); }
-  .logo img { height: 44px !important; }
+  .logo { max-width: calc(100vw - 4rem); }
+  .logo img { height: 88px !important; }
 }
 
 @media (min-width: 961px) {
-  :root { --logo-h: 60px; }
-  .footer-brand img { height: 70px !important; }
+  :root { --logo-h: 120px; }
+  .footer-brand img { height: 140px !important; }
 }

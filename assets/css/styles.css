@@ -16,7 +16,7 @@
   --font-display: 'Bebas Neue', Impact, sans-serif;
   --font-body: 'DM Sans', system-ui, sans-serif;
   --radius: 6px;
-  --header-h: 108px;
+  --header-h: 128px;
 }
 *,*::before,*::after { box-sizing: border-box; }
 html { scroll-behavior: smooth; }
@@ -58,9 +58,9 @@ a:hover { text-decoration: underline; }
   gap: 1rem; min-height: var(--header-h);
 }
 .logo img {
-  height: 100px;
+  height: 120px;
   width: auto;
-  max-width: min(360px, 48vw);
+  max-width: min(420px, 55vw);
   object-fit: contain;
   filter: drop-shadow(0 0 12px rgba(30,168,255,.45));
 }
@@ -338,7 +338,7 @@ textarea { min-height: 140px; resize: vertical; }
 .site-footer a:hover { color: #fff; }
 .site-footer ul { list-style: none; margin: 0; padding: 0; }
 .site-footer li { margin: .4rem 0; }
-.footer-brand img { height: 88px; width: auto; max-width: min(300px, 90%); object-fit: contain; margin-bottom: .85rem; }
+.footer-brand img { height: 110px; width: auto; max-width: min(380px, 95%); object-fit: contain; margin-bottom: .9rem; }
 .footer-bottom {
   border-top: 1px solid rgba(255,255,255,.1); padding-top: 1.25rem;
   display: flex; flex-wrap: wrap; gap: .75rem; justify-content: space-between;
@@ -348,9 +348,9 @@ textarea { min-height: 140px; resize: vertical; }
 
 /* Larger logos; scale down slightly on narrow screens */
 @media (max-width: 640px) {
-  .logo img { height: 72px; max-width: min(280px, 70vw); }
-  .footer-brand img { height: 72px; }
-  :root { --header-h: 88px; }
+  .logo img { height: 84px; max-width: min(320px, 72vw); }
+  .footer-brand img { height: 88px; }
+  :root { --header-h: 100px; }
 }
 /* ========== UNIQUE MOBILE APP BARS ========== */
 .mobile-app-bar {

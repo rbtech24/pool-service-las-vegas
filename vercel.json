@@ -46,6 +46,86 @@
       "source": "/blog/posts/:slug.html",
       "destination": "/blog/posts/:slug",
       "permanent": true
+    },
+    {
+      "source": "/blog/posts/vegas-pool-chemistry-in-july",
+      "destination": "/blog/posts/july-chlorine-loss-las-vegas-01",
+      "permanent": true
+    },
+    {
+      "source": "/blog/posts/vegas-pool-chemistry-in-july.html",
+      "destination": "/blog/posts/july-chlorine-loss-las-vegas-01",
+      "permanent": true
+    },
+    {
+      "source": "/blog/posts/dust-storm-pool-recovery-las-vegas",
+      "destination": "/blog/posts/dust-storm-checklist-las-vegas-02",
+      "permanent": true
+    },
+    {
+      "source": "/blog/posts/dust-storm-pool-recovery-las-vegas.html",
+      "destination": "/blog/posts/dust-storm-checklist-las-vegas-02",
+      "permanent": true
+    },
+    {
+      "source": "/blog/posts/saltwater-vs-chlorine-vegas",
+      "destination": "/blog/posts/salt-vs-chlorine-las-vegas-37",
+      "permanent": true
+    },
+    {
+      "source": "/blog/posts/saltwater-vs-chlorine-vegas.html",
+      "destination": "/blog/posts/salt-vs-chlorine-las-vegas-37",
+      "permanent": true
+    },
+    {
+      "source": "/blog/posts/hoa-pool-rules-las-vegas",
+      "destination": "/blog/posts/hoa-gate-codes-las-vegas-08",
+      "permanent": true
+    },
+    {
+      "source": "/blog/posts/hoa-pool-rules-las-vegas.html",
+      "destination": "/blog/posts/hoa-gate-codes-las-vegas-08",
+      "permanent": true
+    },
+    {
+      "source": "/blog/posts/green-pool-before-pool-party",
+      "destination": "/blog/posts/green-to-clear-timeline-las-vegas-05",
+      "permanent": true
+    },
+    {
+      "source": "/blog/posts/green-pool-before-pool-party.html",
+      "destination": "/blog/posts/green-to-clear-timeline-las-vegas-05",
+      "permanent": true
+    },
+    {
+      "source": "/blog/posts/short-term-rental-pool-care-vegas",
+      "destination": "/blog/posts/str-guest-load-las-vegas-10",
+      "permanent": true
+    },
+    {
+      "source": "/blog/posts/short-term-rental-pool-care-vegas.html",
+      "destination": "/blog/posts/str-guest-load-las-vegas-10",
+      "permanent": true
+    },
+    {
+      "source": "/blog/posts/filter-clean-schedule-desert",
+      "destination": "/blog/posts/filter-psi-guide-las-vegas-04",
+      "permanent": true
+    },
+    {
+      "source": "/blog/posts/filter-clean-schedule-desert.html",
+      "destination": "/blog/posts/filter-psi-guide-las-vegas-04",
+      "permanent": true
+    },
+    {
+      "source": "/blog/posts/choosing-pool-company-las-vegas",
+      "destination": "/blog/posts/choose-company-las-vegas-80",
+      "permanent": true
+    },
+    {
+      "source": "/blog/posts/choosing-pool-company-las-vegas.html",
+      "destination": "/blog/posts/choose-company-las-vegas-80",
+      "permanent": true
     }
   ]
 }

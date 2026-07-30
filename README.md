@@ -8,7 +8,7 @@ Static local SEO site for **Las Vegas, NV**.
 - Unique mobile app bar (`neon` style)
 
 ## Before launch
-1. Replace demo phone `(702) 555-0180` with real NAP
+1. Replace demo phone `(725) 299-4998` with real NAP
 2. Set real email / domain references
 3. Connect contact form to backend
 4. Add Google Business Profile Place ID (no fake review schema)

@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://poolservicelasvegas.com/sitemap.xml
+Sitemap: https://pool-service-las-vegas.com/sitemap.xml

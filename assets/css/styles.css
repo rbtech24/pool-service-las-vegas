@@ -35,23 +35,26 @@ a:hover { text-decoration: underline; }
 .container { width: min(1140px, calc(100% - 2rem)); margin: 0 auto; }
 .container-wide { width: min(1280px, calc(100% - 2rem)); margin: 0 auto; }
 
-/* Top bar */
+/* Top bar — white */
 .topbar {
-  background: #050810;
-  color: #9aadc8;
+  background: #ffffff;
+  color: #4a5d78;
   font-size: 13px;
   padding: .45rem 0;
+  border-bottom: 1px solid rgba(15, 35, 70, 0.08);
 }
 .topbar-inner { display: flex; justify-content: space-between; gap: 1rem; flex-wrap: wrap; align-items: center; }
-.topbar a { color: inherit; }
-.topbar strong { color: #eef3ff; font-weight: 600; }
+.topbar a { color: #0b6fd4; }
+.topbar a:hover { color: #e31c23; }
+.topbar strong { color: #0b1a2e; font-weight: 600; }
 
-/* Header */
+/* Header — white */
 .site-header {
   position: sticky; top: 0; z-index: 1000;
-  background: rgba(7,11,20,.92);
-  backdrop-filter: blur(12px);
-  border-bottom: 1px solid var(--border);
+  background: #ffffff;
+  backdrop-filter: none;
+  border-bottom: 1px solid rgba(15, 35, 70, 0.1);
+  box-shadow: 0 1px 0 rgba(15, 35, 70, 0.04);
 }
 .header-inner {
   display: flex; align-items: center; justify-content: space-between;
@@ -70,33 +73,37 @@ a:hover { text-decoration: underline; }
 .nav a, .nav button {
   font-family: var(--font-body);
   font-size: 14px;
-  font-weight: 500;
-  color: var(--text);
+  font-weight: 600;
+  color: #0b1a2e;
   background: none; border: 0;
   padding: .55rem .7rem;
   cursor: pointer;
   border-radius: 999px;
 }
 .nav a:hover, .nav button:hover {
-  background: rgba(30,168,255,.1);
+  background: rgba(30, 168, 255, 0.1);
+  color: #0b6fd4;
   text-decoration: none;
 }
 .nav-item { position: relative; }
 .nav-item .dropdown {
   display: none; position: absolute; top: 100%; left: 0;
   min-width: 240px; padding: .5rem;
-  background: var(--surface);
-  border: 1px solid var(--border);
+  background: #ffffff;
+  border: 1px solid rgba(15, 35, 70, 0.12);
   border-radius: var(--radius);
-  box-shadow: var(--glow);
+  box-shadow: 0 12px 32px rgba(15, 35, 70, 0.12);
 }
 .nav-item:hover .dropdown, .nav-item:focus-within .dropdown { display: block; }
-.nav-item .dropdown a { display: block; border-radius: 8px; padding: .55rem .75rem; }
+.nav-item .dropdown a { display: block; border-radius: 8px; padding: .55rem .75rem; color: #0b1a2e; }
+.nav-item .dropdown a:hover { background: rgba(30, 168, 255, 0.08); color: #0b6fd4; }
 .header-actions { display: flex; align-items: center; gap: .65rem; }
 .header-phone {
   display: none; align-items: center; gap: .4rem;
-  font-weight: 600; color: var(--text); white-space: nowrap;
+  font-weight: 700; color: #0b1a2e; white-space: nowrap;
 }
+.header-phone:hover { color: #e31c23; text-decoration: none; }
+.menu-toggle span { background: #0b1a2e !important; box-shadow: none !important; }
 @media (min-width: 1100px) { .header-phone { display: inline-flex; } }
 .btn {
   display: inline-flex; align-items: center; justify-content: center; gap: .4rem;
@@ -130,7 +137,7 @@ a:hover { text-decoration: underline; }
   .nav { display: none; }
   .nav.open {
     display: flex; flex-direction: column; position: absolute; left: 0; right: 0;
-    top: 100%; background: var(--surface); border-bottom: 1px solid var(--border);
+    top: 100%; background: #ffffff; border-bottom: 1px solid var(--border);
     padding: 1rem; gap: .25rem; max-height: 70vh; overflow: auto;
   }
   .nav-item .dropdown { position: static; box-shadow: none; border: 0; display: block; padding-left: .5rem; }
@@ -320,12 +327,13 @@ textarea { min-height: 140px; resize: vertical; }
 }
 .cta-band p { margin: 0 auto 1.25rem; max-width: 50ch; color: rgba(255,255,255,.88); }
 
-/* Footer */
+/* Footer — white */
 .site-footer {
-  background: #050810;
-  color: #9aadc8;
+  background: #ffffff;
+  color: #4a5d78;
   padding: 3rem 0 calc(5.5rem + env(safe-area-inset-bottom, 0px));
   font-size: 14.5px;
+  border-top: 1px solid rgba(15, 35, 70, 0.1);
 }
 .footer-grid {
   display: grid; grid-template-columns: 1.4fr 1fr 1fr 1fr; gap: 2rem; margin-bottom: 2rem;
@@ -333,18 +341,25 @@ textarea { min-height: 140px; resize: vertical; }
 @media (max-width: 900px) { .footer-grid { grid-template-columns: 1fr 1fr; } }
 @media (max-width: 560px) { .footer-grid { grid-template-columns: 1fr; } }
 .site-footer h4 {
-  color: #fff; font-family: var(--font-display); font-size: 1.15rem; margin: 0 0 1rem;
+  color: #0b1a2e; font-family: var(--font-display); font-size: 1.15rem; margin: 0 0 1rem;
   text-transform: uppercase; letter-spacing: .04em; font-weight: 400;
 }
-.site-footer a { color: inherit; }
-.site-footer a:hover { color: #fff; }
+.site-footer a { color: #4a5d78; }
+.site-footer a:hover { color: #0b6fd4; }
 .site-footer ul { list-style: none; margin: 0; padding: 0; }
 .site-footer li { margin: .4rem 0; }
+.site-footer strong,
+.site-footer .footer-brand strong,
+.footer-brand p strong {
+  color: #0b1a2e !important;
+}
+.footer-brand p { color: #4a5d78; }
 .footer-brand img { height: 64px; width: auto; max-width: min(280px, 90%); object-fit: contain; margin-bottom: .75rem; }
 .footer-bottom {
-  border-top: 1px solid rgba(255,255,255,.1); padding-top: 1.25rem;
+  border-top: 1px solid rgba(15, 35, 70, 0.1); padding-top: 1.25rem;
   display: flex; flex-wrap: wrap; gap: .75rem; justify-content: space-between;
   font-size: 13px;
+  color: #6b7c93;
 }
 
 
@@ -477,12 +492,14 @@ textarea { min-height: 140px; resize: vertical; }
 .prose li a { font-weight: 600; }
 .prose .lede-graph { font-size: 1.08rem; color: var(--text); }
 
-/* ===== HEADER / LOGO � no extra vertical padding; bar hugs logo ===== */
+/* ===== HEADER / LOGO — no extra vertical padding; bar hugs logo ===== */
 :root { --logo-h: 112px; --logo-h-mobile: 96px; }
 .site-header {
   position: sticky;
   top: 0;
   z-index: 1000;
+  background: #ffffff !important;
+  border-bottom: 1px solid rgba(15, 35, 70, 0.1);
 }
 .header-inner {
   display: flex;
@@ -578,7 +595,7 @@ textarea { min-height: 140px; resize: vertical; }
     position: absolute;
     left: 0; right: 0;
     top: 100%;
-    background: var(--surface);
+    background: #ffffff;
     border-bottom: 1px solid var(--border);
     padding: .75rem 1rem 1rem;
     gap: .15rem;

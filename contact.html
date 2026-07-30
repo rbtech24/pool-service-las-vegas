@@ -3,22 +3,22 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Contact Pool Service Las Vegas | Las Vegas Pool Service</title>
-  <meta name="description" content="Request weekly pool service in Las Vegas, NV. Tell us about your pool or call (702) 555-0180 for a clear route quote. Call for a free quote and…" />
+  <title>Call Pool Service Las Vegas | Las Vegas Pool Service</title>
+  <meta name="description" content="Call (702) 555-0180 for weekly pool service in Las Vegas, NV. Phone-first booking — no online forms. Local desert-smart pool care." />
   <link rel="canonical" href="https://poolservicelasvegas.com/contact" />
   <meta name="robots" content="index,follow,max-image-preview:large" />
   <meta name="geo.region" content="US-NV" />
   <meta name="geo.placename" content="Las Vegas" />
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="Pool Service Las Vegas" />
-  <meta property="og:title" content="Contact Pool Service Las Vegas | Las Vegas Pool Service" />
-  <meta property="og:description" content="Request weekly pool service in Las Vegas, NV. Tell us about your pool or call (702) 555-0180 for a clear route quote. Call for a free quote and…" />
+  <meta property="og:title" content="Call Pool Service Las Vegas | Las Vegas Pool Service" />
+  <meta property="og:description" content="Call (702) 555-0180 for weekly pool service in Las Vegas, NV. Phone-first booking — no online forms. Local desert-smart pool care." />
   <meta property="og:url" content="https://poolservicelasvegas.com/contact" />
   <meta property="og:image" content="https://poolservicelasvegas.com/assets/images/generated/hero.jpg" />
   <meta property="og:locale" content="en_US" />
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Contact Pool Service Las Vegas | Las Vegas Pool Service" />
-  <meta name="twitter:description" content="Request weekly pool service in Las Vegas, NV. Tell us about your pool or call (702) 555-0180 for a clear route quote. Call for a free quote and…" />
+  <meta name="twitter:title" content="Call Pool Service Las Vegas | Las Vegas Pool Service" />
+  <meta name="twitter:description" content="Call (702) 555-0180 for weekly pool service in Las Vegas, NV. Phone-first booking — no online forms. Local desert-smart pool care." />
   <meta name="twitter:image" content="https://poolservicelasvegas.com/assets/images/generated/hero.jpg" />
   <script type="application/ld+json">
 {
@@ -105,7 +105,7 @@
     </nav>
     <div class="header-actions">
       <a class="header-phone" href="tel:7025550180">(702) 555-0180</a>
-      <a class="btn btn-primary btn-sm" href="contact.html">Book Weekly Service</a>
+      <a class="btn btn-primary btn-sm" href="tel:7025550180">Call Now</a>
       <button class="menu-toggle" type="button" aria-label="Open menu" aria-controls="primary-nav"><span></span><span></span><span></span></button>
     </div>
   </div>
@@ -115,119 +115,37 @@
 <section class="page-hero" style="--hero-img:url('assets/images/generated/hero.jpg')">
   <div class="container">
     <div class="breadcrumb"><a href="index.html">Home</a> / Contact</div>
-    <h1>Contact & Booking</h1>
-    <p>Call (702) 555-0180 or send the form — we respond on business days, usually same day.</p>
+    <h1>Call Pool Service Las Vegas</h1>
+    <p>No forms. No waiting on email. Talk to a real person about weekly pool care in Las Vegas, NV.</p>
   </div>
 </section>
 <section class="section">
-  <div class="container split">
-    <div>
-      <h2 class="section-title mt-0">Tell us about your pool</h2>
-      <p class="lead">Gate code, spa, salt system, and the last time it was truly balanced — that helps us quote accurately.</p>
-            <form id="contact-form" class="form-grid" action="/api/contact" method="post" novalidate>
-        <div class="form-grid two">
-          <div><label for="name">Name</label><input id="name" name="name" autocomplete="name" required /></div>
-          <div><label for="phone">Phone</label><input id="phone" name="phone" type="tel" autocomplete="tel" required /></div>
-        </div>
-        <div class="form-grid two">
-          <div><label for="email">Email</label><input id="email" name="email" type="email" autocomplete="email" required /></div>
-          <div><label for="zip">ZIP / neighborhood</label><input id="zip" name="zip" autocomplete="postal-code" placeholder="e.g. Las Vegas" /></div>
-        </div>
-        <div>
-          <label for="service">Interested in</label>
-          <select id="service" name="service">
-            <option>Weekly service</option>
-            <option>Green-to-clean</option>
-            <option>Equipment repair</option>
-            <option>One-time clean</option>
-            <option>Not sure</option>
-          </select>
-        </div>
-        <div><label for="msg">Pool details</label><textarea id="msg" name="msg" placeholder="Size, spa, salt/chlorine, access notes…"></textarea></div>
-        <div class="hp" aria-hidden="true" style="position:absolute;left:-9999px;top:auto;width:1px;height:1px;overflow:hidden;">
-          <label for="company">Company</label>
-          <input id="company" name="company" type="text" tabindex="-1" autocomplete="off" />
-        </div>
-        <button class="btn btn-primary" type="submit" id="contact-submit">Book Weekly Service</button>
-        <p id="contact-status" class="form-note" role="status" aria-live="polite"></p>
-        <p class="form-note">Or call <a href="tel:7025550180">(702) 555-0180</a> · hello@poolservicelasvegas.com</p>
-      </form>
-      <script>
-      (function () {
-        var form = document.getElementById("contact-form");
-        if (!form) return;
-        var status = document.getElementById("contact-status");
-        var btn = document.getElementById("contact-submit");
-        form.addEventListener("submit", async function (e) {
-          e.preventDefault();
-          status.textContent = "Sending…";
-          status.style.color = "";
-          btn.disabled = true;
-          var payload = {
-            name: form.name.value,
-            email: form.email.value,
-            phone: form.phone.value,
-            zip: form.zip.value,
-            service: form.service.value,
-            msg: form.msg.value,
-            company: form.company.value
-          };
-          try {
-            var res = await fetch("/api/contact", {
-              method: "POST",
-              headers: { "Content-Type": "application/json" },
-              body: JSON.stringify(payload)
-            });
-            var data = await res.json().catch(function () { return {}; });
-            if (!res.ok || !data.ok) {
-              throw new Error((data && data.error) || "Could not send. Please call us.");
-            }
-            status.textContent = "Thanks — we got your request and will reply soon.";
-            status.style.color = "var(--primary)";
-            form.reset();
-          } catch (err) {
-            status.textContent = err.message || "Something went wrong. Please call us.";
-            status.style.color = "var(--accent, #c00)";
-          } finally {
-            btn.disabled = false;
-          }
-        });
-      })();
-      </script>
-    </div>
-    <div>
+  <div class="container" style="max-width:720px;text-align:center">
+    <p class="eyebrow">Phone-first service</p>
+    <h2 class="section-title" style="margin-bottom:.5rem">Tap to call</h2>
+    <p class="lead" style="margin:0 auto 1.5rem">Tell us your neighborhood, pool size, spa, and whether you run salt or chlorine. We’ll give you a clear weekly plan over the phone.</p>
+    <p style="margin:0 0 1rem">
+      <a class="btn btn-primary" href="tel:7025550180" style="font-size:1.25rem;padding:1rem 1.75rem">(702) 555-0180</a>
+    </p>
+    <p class="muted" style="margin-bottom:2rem">Hours: we answer and return calls on business days, usually same day.</p>
+    <div class="cards-3" style="text-align:left">
       <article class="area-card">
-        <h3>Office line</h3>
-        <p><strong>(702) 555-0180</strong></p>
-        <p class="muted">Serving Las Vegas, NV</p>
-        <p class="muted">Update this card with your real street address when NAP is final. Empty street is OK for service-area businesses until a public office exists.</p>
-        <p class="price-note" style="margin-top:1rem">Demo phone numbers use 555 — replace before marketing.</p>
-      </article>
-    </div>
-  </div>
-</section>
-
-<section class="section alt">
-  <div class="container">
-    <div class="section-head">
-      <span class="eyebrow">After you reach out</span>
-      <h2 class="section-title">What happens next</h2>
-    </div>
-    <div class="cards-3">
-      <article class="area-card">
-        <h3>1. We review your pool notes</h3>
-        <p class="muted">Size, spa, salt vs chlorine, and gate access help us quote Las Vegas routes accurately without a surprise visit fee.</p>
+        <h3>1. Call or text</h3>
+        <p class="muted">Use <a href="tel:7025550180">(702) 555-0180</a>. Have a gate code and rough pool size ready if you can.</p>
       </article>
       <article class="area-card">
-        <h3>2. Clear scope &amp; timing</h3>
-        <p class="muted">You get a straightforward weekly plan or recovery estimate — inclusions and billable extras stated up front.</p>
+        <h3>2. Get a clear quote</h3>
+        <p class="muted">Weekly route scope, extras, and timing — stated up front, no mystery form follow-ups.</p>
       </article>
       <article class="area-card">
-        <h3>3. Route start</h3>
-        <p class="muted">Once you approve, we schedule your service day and keep chemistry notes you can actually use. Prefer phone? Call (702) 555-0180.</p>
+        <h3>3. We put you on a route</h3>
+        <p class="muted">Once you approve, your Las Vegas service day is set and water care stays consistent.</p>
       </article>
     </div>
-    <p class="price-note" style="margin-top:1.5rem">Forms are delivered securely by email. We never sell lead data. Replace demo contact numbers before public marketing.</p>
+    <p class="price-note" style="margin-top:2rem;text-align:left">Prefer not to leave a voicemail? Call twice if needed — phone is how we book. Demo number uses 555 until you replace NAP.</p>
+    <p style="margin-top:1.5rem">
+      <a class="btn btn-primary" href="tel:7025550180">Call for Weekly Service — (702) 555-0180</a>
+    </p>
   </div>
 </section>
 
@@ -276,7 +194,7 @@
   <div class="appbar-inner">
     <a href="index.html" class="" aria-label="Home"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 10.5 12 3l9 7.5V21a1 1 0 0 1-1 1h-5v-7H9v7H4a1 1 0 0 1-1-1v-10.5z"/></svg><span>Home</span></a>
     <a class="call" href="tel:7025550180" aria-label="Call now"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg><span>Call</span></a>
-    <a href="contact.html" class="active" aria-label="Schedule"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg><span>Book</span></a>
+    <a href="tel:7025550180" class="active" aria-label="Schedule"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg><span>Call</span></a>
     <a href="service-areas.html" class="" aria-label="Service areas"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 21s7-4.5 7-11a7 7 0 1 0-14 0c0 6.5 7 11 7 11z"/><circle cx="12" cy="10" r="2.5"/></svg><span>Areas</span></a>
   </div>
 </nav>
